@@ -6,60 +6,69 @@ Lab 11: A flash card program.
 import random
 
 def test_get_flash_cards():
-    """
-    Test function for get_flash_cards.
-    """
+    """Test function for the get_flash_cards function."""
 
-    # TODO: update inputs and expected outputs of the test cases. Delete this line when you are done.
+    # Test 1
+    # To Do: Fill out filename and expected result for test 1
+    test_description = "No cards"
+    filename = ''
+    expected_result = {}
+    actual_result = get_flash_cards(filename)
 
-    # Mulitiple quiz questions
-    input = ''
-    expected = {}
-    actual = get_flash_cards(input)
-
-    if actual == expected:
-        print("Test 1 PASSED")
+    if actual_result == expected_result:
+        print("PASSED: Test 1:", test_description)
     else:
-        print("Test 1 FAILED!")
-        print("Expected:", expected)
-        print("Actual:", actual)
+        print("FAILED: Test 1:", test_description)
+        print("\tExpected Return:", expected_result)
+        print("\tActual Return:", actual_result)
 
-    #TODO: fill out test equivalency class
-    input = ''
-    expected = {}
-    actual = get_flash_cards(input)
+    # Test 2
+    # To Do: Fill out the filename and expected result for test 2
+    test_description = "One card"
+    filename = ''
+    expected_result = {}
+    actual_result = get_flash_cards(filename)
 
-    if actual == expected:
-        print("Test 2 PASSED")
+    if actual_result == expected_result:
+        print("PASSED: Test 2:", test_description)
     else:
-        print("Test 2 FAILED!")
-        print("Expected:", expected)
-        print("Actual:", actual)
+        print("FAILED: Test 2:", test_description)
+        print("\tExpected Return:", expected_result)
+        print("\tActual Return:", actual_result)
 
-    #TODO: fill out test equivalency class
-    input = ''
-    expected = {}
-    actual = get_flash_cards(input)
+    # Test 3
+    # To Do: Fill out filename and expected result for test 3
+    test_description = "Multiple cards"
+    filename = ''
+    expected_result = {}
+    actual_result = get_flash_cards(filename)
 
-    if actual == expected:
-        print("Test 3 PASSED")
+    if actual_result == expected_result:
+        print("PASSED: Test 3:", test_description)
     else:
-        print("Test 3 FAILED!")
-        print("Expected:", expected)
-        print("Actual:", actual)
+        print("FAILED: Test 3:", test_description)
+        print("\tExpected Return:", expected_result)
+        print("\tActual Return:", actual_result)
+
 
 def get_flash_cards(filename):
-    """
-    You will add the docstring for this function.
-    """
-    pass
+    """To Do: Write a docstring for this function, using the proper formatting."""
+    
+    return {} # To Do: remove this line and implement this function
 
 
 # To Do: Define your quiz function immediately AFTER this line.
 
 
 def main():
-    pass # remove this line when implementing main
+    """Implements a flash card game to test someone's memory.
+    
+    The user will enter the name of a file with flash cards and a target score and the
+    program will continually quiz them on the flash cards until they get the target amount
+    correct.
+    """
+    
+    pass # To Do: Remove this line and implement the function.
 
 
 """ DO NOT MODIFY ANYTHING BELOW THIS LINE! """
